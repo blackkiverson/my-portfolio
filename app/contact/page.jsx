@@ -76,9 +76,9 @@ const Contact = () => {
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
                     <SelectItem value="est">Web Development</SelectItem>
+                    <SelectItem value="fst">Mobile Development</SelectItem>
                     <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
-                    {/* <SelectItem value="est">Web Development</SelectItem> */}
+                    <SelectItem value="mst">SEO</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
@@ -88,7 +88,7 @@ const Contact = () => {
                 placeholder="Type your message here."
               />
               {/* submit btn */}
-              <Button size="md" className="max-w-40">
+              <Button size="md" className="max-w-40 h-[50px] rounded-xl">
                 Send message
               </Button>
             </form>

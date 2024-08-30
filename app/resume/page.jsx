@@ -7,7 +7,19 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaPython,
 } from "react-icons/fa";
+
+import {
+  SiDacia,
+  SiDart,
+  SiFirebase,
+  SiFlutter,
+  SiShadcnui,
+  SiSupabase,
+  SiTypescript,
+  SiVercel
+} from "react-icons/si"
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -100,12 +112,12 @@ const education = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
   items: [
     {
-      institution: "Univeristy of Pangasinan",
+      institution: "University of Luzon, Philippines",
       degree: "MSc. in Information Technology",
       duration: "2024 - present",
     },
     {
-      institution: "American University of Nigeria",
+      institution: "American University, Nigeria",
       degree: "BSc. in Software Engineering",
       duration: "2018 - 2022",
     },
@@ -149,6 +161,38 @@ const skills = {
     {
       icon: <FaFigma />,
       name: "figma",
+    },
+    {
+      icon: <SiFlutter />,
+      name: "flutter",
+    },
+    {
+      icon: <SiShadcnui />,
+      name: "shadcnUI",
+    },
+    {
+      icon: <SiFirebase />,
+      name: "firebase",
+    },
+    {
+      icon: <SiTypescript />,
+      name: "typescript",
+    },
+    {
+      icon: <SiSupabase />,
+      name: "supabase",
+    },
+    {
+      icon: <SiVercel />,
+      name: "vercel",
+    },
+    {
+      icon: <FaPython />,
+      name: "python",
+    },
+    {
+      icon: <SiDart />,
+      name: "dart",
     },
   ],
 };
