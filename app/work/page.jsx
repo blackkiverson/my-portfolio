@@ -22,8 +22,24 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "My Portfolio",
     title: "project 1",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
+    stack: [
+      { name: "Next.js" },
+      { name: "Tailwind.css" },
+      { name: "ShadcnUI"},
+      { name: "Javascript" },
+    ],
+    image: "/assets/porfolioUI.png",
+    live: "https://blackk-portfolio.vercel.app",
+    github: "https://github.com/blackkiverson/my-portfolio",
+  },
+  {
+    num: "02",
+    category: "frontend",
+    title: "project 2",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
@@ -32,9 +48,9 @@ const projects = [
     github: "",
   },
   {
-    num: "02",
+    num: "03",
     category: "fullstack",
-    title: "project 2",
+    title: "project 3",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
@@ -43,9 +59,9 @@ const projects = [
     github: "",
   },
   {
-    num: "03",
+    num: "04",
     category: "frontend",
-    title: "project 3",
+    title: "project 4",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
     stack: [
@@ -58,9 +74,9 @@ const projects = [
     github: "",
   },
   {
-    num: "04",
+    num: "05",
     category: "fullstack",
-    title: "project 4",
+    title: "project 5",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
     stack: [
