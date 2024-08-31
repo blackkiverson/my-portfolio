@@ -8,29 +8,29 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
-    href: "",
+      "Creating responsive, fast-loading, and visually stunning websites that captivate your audience and boost your online presence. From front-end to back-end, I ensure every aspect of your web solution is seamless and effective.",
+    href: "/contact",
   },
   {
     num: "02",
     title: "Mobile Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
-    href: "",
+      "Delivering high-quality, user-friendly mobile applications that enhance user experiences and drive engagement. Whether it's iOS or Android, I specialize in building robust, scalable apps that meet your business needs.",
+    href: "/contact",
   },
   {
     num: "03",
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
-    href: "",
+      "Designing intuitive, user-centered interfaces that make your digital products. Focusing on understanding user needs and crafting experiences that are both aesthetically pleasing and functionally effective.",
+    href: "/contact",
   },
   {
     num: "04",
     title: "SEO",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
-    href: "",
+      "Optimizing your digital presence to rank higher on search engines, driving more organic traffic and increasing visibility. I use proven strategies to enhance your site’s relevance, authority, and searchability.",
+    href: "/contact",
   },
 ];
 
@@ -68,7 +68,9 @@ const Services = () => {
                   </Link>
                 </div>
                 {/* title */}
-                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{services.title}</h2>
+                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+                  {services.title}
+                </h2>
                 {/* description */}
                 <p className="text-white/60">{services.description}</p>
                 {/* border */}

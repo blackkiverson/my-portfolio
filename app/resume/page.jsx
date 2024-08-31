@@ -18,8 +18,8 @@ import {
   SiShadcnui,
   SiSupabase,
   SiTypescript,
-  SiVercel
-} from "react-icons/si"
+  SiVercel,
+} from "react-icons/si";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -27,7 +27,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
+    "Let's collaborate to create engaging, user-focused applications that stand out. Reach out to see how we can make your next project a success!",
   info: [
     {
       fieldName: "Name",
@@ -69,7 +69,7 @@ const experience = {
   icon: "",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
+    "My diverse experience in mobile development, full-stack web development, and UI/UX design has equipped me to deliver innovative and high-quality digital solutions. I've collaborated with various teams to bring projects to life, always focusing on user experience and technical excellence.",
   items: [
     {
       company: "AIENAI",
@@ -109,7 +109,7 @@ const education = {
   icon: "",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
+    "Building a solid foundation in technology and innovation, my educational journey has equipped me with the skills and knowledge to excel in both mobile and web development. From gaining a strong understanding of software engineering to advancing in information technology, I am committed to continuous learning and applying the latest tech trends to create impactful digital solutions.",
   items: [
     {
       institution: "University of Luzon, Philippines",
@@ -128,7 +128,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat eget orci nec rhoncus. Donec tincidunt porta tellus, a dictum nisi pharetra vel.",
+    "I have a diverse skill set spanning various technologies and tools essential for modern web and mobile application development. My expertise includes:",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -352,7 +352,10 @@ const Resume = () => {
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                   {about.info.map((item, index) => {
                     return (
-                      <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
+                      <li
+                        key={index}
+                        className="flex items-center justify-center xl:justify-start gap-4"
+                      >
                         <span className="text-white/60">{item.fieldName}</span>
                         <span className="text-xl">{item.fieldValue}</span>
                       </li>
