@@ -1,4 +1,7 @@
+"use client";
+
 import { FiDownload, fiDownload } from "react-icons/fi";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 // components
 import Social from "@/components/Social";
@@ -7,6 +10,14 @@ import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
 const Home = () => {
+  const [text, count] = useTypewriter({
+    words: ["Samuel Onyebuchi", "a developer.", "a designer."],
+    loop: true,
+    delaySpeed: 2000,
+    typeSpeed: 100,
+    deleteSpeed: 100,
+  });
+
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -14,13 +25,13 @@ const Home = () => {
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
-            <h1 className="h1 mb-6">
+            <h1 className="h1 my-6">
               Hello I'm <br />{" "}
-              <span className="text-accent">Samuel Onyebuchi-Igbokwe</span>
+              <span className="text-accent">{text}<Cursor/></span>
             </h1>
             <p className="mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologies.
+              Transforming ideas into engaging digital experiences for mobile
+              and web, blending creativity with technical precision.
             </p>
             {/* btn & socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
