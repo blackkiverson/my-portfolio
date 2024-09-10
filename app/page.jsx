@@ -11,7 +11,7 @@ import Stats from "@/components/Stats";
 
 const Home = () => {
   const [text, count] = useTypewriter({
-    words: ["Samuel Onyebuchi", "a developer.", "a designer."],
+    words: ["Samuel OI", "a developer.", "a designer."],
     loop: true,
     delaySpeed: 2000,
     typeSpeed: 100,
