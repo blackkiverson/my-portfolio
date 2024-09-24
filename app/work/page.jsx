@@ -23,7 +23,7 @@ const projects = [
  {
   num: '01',
   category: 'My Portfolio',
-  title: 'project 1',
+  title: 'personal project',
   description:
    'This project is my personal portfolio website where I showcase my skills, projects, and experience as a developer. It is built using Next.js for the frontend, TailwindCSS for styling, and ShadcnUI for UI components. I used JavaScript to add interactivity and manage the overall functionality.',
   stack: [
@@ -55,29 +55,29 @@ const projects = [
  {
   num: '03',
   category: 'fullstack',
-  title: 'project 3',
+  title: 'fullstack ecommerce shop - Glorisco',
   description:
    'This is a full-stack application where I handled both the frontend and backend development. Using Next.js and TailwindCSS, I built the frontend, while Node.js powered the backend. The project demonstrates my capability to work on both sides of a web application, ensuring seamless integration between the client and server.',
   stack: [{ name: 'Next.js' }, { name: 'Tailwind.css' }, { name: 'Node.js' }],
   image: '/assets/labUI.jpg',
-  live: '',
+  live: 'https://www.facebook.com/gloriscosupermart/',
   github: 'https://github.com/blackkiverson/',
  },
-//  {
-//   num: '04',
-//   category: 'frontend',
-//   title: 'project 4',
-//   description:
-//    'This project is a mobile application developed using React Native, with a focus on providing a seamless user experience across both iOS and Android platforms. TailwindCSS was used for styling, ensuring the UI is both attractive and responsive. The application is written in TypeScript, providing type safety and reducing runtime errors.',
-//   stack: [
-//    { name: 'React Native' },
-//    { name: 'Tailwind.css' },
-//    { name: 'Typescript' },
-//   ],
-//   image: '/assets/vegUI.jpg',
-//   live: '',
-//   github: 'https://github.com/blackkiverson/',
-//  },
+ //  {
+ //   num: '04',
+ //   category: 'frontend',
+ //   title: 'project 4',
+ //   description:
+ //    'This project is a mobile application developed using React Native, with a focus on providing a seamless user experience across both iOS and Android platforms. TailwindCSS was used for styling, ensuring the UI is both attractive and responsive. The application is written in TypeScript, providing type safety and reducing runtime errors.',
+ //   stack: [
+ //    { name: 'React Native' },
+ //    { name: 'Tailwind.css' },
+ //    { name: 'Typescript' },
+ //   ],
+ //   image: '/assets/vegUI.jpg',
+ //   live: '',
+ //   github: 'https://github.com/blackkiverson/',
+ //  },
  //  {
  //   num: '05',
  //   category: 'fullstack',
