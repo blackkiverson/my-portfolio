@@ -39,12 +39,17 @@ const projects = [
  {
   num: '02',
   category: 'frontend',
-  title: 'project 2',
+  title: 'In-House Mobile App - AIENAI',
   description:
-   'In this project, I developed a responsive and dynamic frontend application using HTML5, CSS3, and JavaScript. The focus was on creating a user-friendly interface that adapts well to different screen sizes and devices. The project showcases my ability to implement clean and maintainable code.',
-  stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'Javascript' }],
+   'In this project, I developed a responsive and dynamic mobile application using React Native, Tailwind.css, Typescript, and for backend integrations Firebase. The focus was on creating a user-friendly interface that adapts well to different screen sizes and devices, while solving day-to-day issues for people. The project showcases my ability to implement clean and maintainable code.',
+  stack: [
+   { name: 'React Native' },
+   { name: 'Tailwind.css' },
+   { name: 'Typescript' },
+   { name: 'Firebase' },
+  ],
   image: '/assets/clothUI.jpg',
-  live: '',
+  live: 'https://www.aienai.co/',
   github: 'https://github.com/blackkiverson/',
  },
  {
@@ -58,21 +63,21 @@ const projects = [
   live: '',
   github: 'https://github.com/blackkiverson/',
  },
- {
-  num: '04',
-  category: 'frontend',
-  title: 'project 4',
-  description:
-   'This project is a mobile application developed using React Native, with a focus on providing a seamless user experience across both iOS and Android platforms. TailwindCSS was used for styling, ensuring the UI is both attractive and responsive. The application is written in TypeScript, providing type safety and reducing runtime errors.',
-  stack: [
-   { name: 'React Native' },
-   { name: 'Tailwind.css' },
-   { name: 'Typescript' },
-  ],
-  image: '/assets/vegUI.jpg',
-  live: '',
-  github: 'https://github.com/blackkiverson/',
- },
+//  {
+//   num: '04',
+//   category: 'frontend',
+//   title: 'project 4',
+//   description:
+//    'This project is a mobile application developed using React Native, with a focus on providing a seamless user experience across both iOS and Android platforms. TailwindCSS was used for styling, ensuring the UI is both attractive and responsive. The application is written in TypeScript, providing type safety and reducing runtime errors.',
+//   stack: [
+//    { name: 'React Native' },
+//    { name: 'Tailwind.css' },
+//    { name: 'Typescript' },
+//   ],
+//   image: '/assets/vegUI.jpg',
+//   live: '',
+//   github: 'https://github.com/blackkiverson/',
+//  },
  //  {
  //   num: '05',
  //   category: 'fullstack',
