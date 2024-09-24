@@ -45,7 +45,7 @@ const projects = [
   stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'Javascript' }],
   image: '/assets/clothUI.jpg',
   live: '',
-  github: '',
+  github: 'https://github.com/blackkiverson/',
  },
  {
   num: '03',
@@ -56,7 +56,7 @@ const projects = [
   stack: [{ name: 'Next.js' }, { name: 'Tailwind.css' }, { name: 'Node.js' }],
   image: '/assets/labUI.jpg',
   live: '',
-  github: '',
+  github: 'https://github.com/blackkiverson/',
  },
  {
   num: '04',
@@ -71,23 +71,23 @@ const projects = [
   ],
   image: '/assets/vegUI.jpg',
   live: '',
-  github: '',
+  github: 'https://github.com/blackkiverson/',
  },
-//  {
-//   num: '05',
-//   category: 'fullstack',
-//   title: 'project 5',
-//   description:
-//    'In this full-stack project, I utilized Next.js for the server-side rendering capabilities and built a robust web application. TailwindCSS was employed to create a sleek and responsive design, while TypeScript was used throughout the project to enhance code quality and maintainability. This project showcases my ability to develop a complete web solution from frontend to backend.',
-//   stack: [
-//    { name: 'Next.js' },
-//    { name: 'Tailwind.css' },
-//    { name: 'Typescript' },
-//   ],
-//   image: '/assets/jobile.jpg',
-//   live: '',
-//   github: '',
-//  },
+ //  {
+ //   num: '05',
+ //   category: 'fullstack',
+ //   title: 'project 5',
+ //   description:
+ //    'In this full-stack project, I utilized Next.js for the server-side rendering capabilities and built a robust web application. TailwindCSS was employed to create a sleek and responsive design, while TypeScript was used throughout the project to enhance code quality and maintainability. This project showcases my ability to develop a complete web solution from frontend to backend.',
+ //   stack: [
+ //    { name: 'Next.js' },
+ //    { name: 'Tailwind.css' },
+ //    { name: 'Typescript' },
+ //   ],
+ //   image: '/assets/jobile.jpg',
+ //   live: '',
+ //   github: '',
+ //  },
 ];
 
 const Work = () => {
