@@ -131,6 +131,7 @@ const Work = () => {
        <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
         {project.category} project
        </h2>
+       <h4 className='font-normal leading-none text-gray-500 group-hover:text-accent transition-all duration-600 capitalize'>{project.title}</h4>
        {/* project description */}
        <p className="text-white/60">{project.description}</p>
        {/* stack */}
