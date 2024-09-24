@@ -38,7 +38,7 @@ const projects = [
  },
  {
   num: '02',
-  category: 'frontend',
+  category: 'fullstack',
   title: 'In-House Mobile App - AIENAI',
   description:
    'In this project, I developed a responsive and dynamic mobile application using React Native, Tailwind.css, Typescript, and for backend integrations Firebase. The focus was on creating a user-friendly interface that adapts well to different screen sizes and devices, while solving day-to-day issues for people. The project showcases my ability to implement clean and maintainable code.',
